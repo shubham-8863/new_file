@@ -4,11 +4,11 @@ export const Footer = () => {
 
     let footerstyle = {
         position:"relative",
-        top:"550px"
+        top:"200px"
     }
   return (
     <div>
-        <footer className='bg-secondary text-light py-2  ' style={footerstyle}>
+        <footer className='bg-secondary text-light py-4  ' style={footerstyle}>
             Copyright © Shubham | Image Style Transfer | 2025 | All rights reserved.
         </footer>
 </div>
