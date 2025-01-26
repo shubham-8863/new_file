@@ -5,13 +5,15 @@ export const About = () => {
   
 
   return (
+
+    
     <div>
       <h4 className='my-3 d-block font-serif font-extrabold px-3' >What makes us Amazing! </h4>
       <p className='float-right font-mono'>
       Experience the magic of artistic transformation with our Image Style Transfer Web Application. Upload a content image and a style image, and watch as our advanced neural networks blend them into a stunning piece of digital art. Whether you want to see your favorite photo painted in the style of Van Gogh or add a modern artistic twist to your selfies, our platform makes it simple and fun. Built using state-of-the-art technologies, our application ensures high-quality results with a seamless user experience. Redefine creativity—turn your imagination into art today!
       </p>
       <div class="col-auto mx-5 my-5 ">
-        <button type="submit" class="btn btn-success mb-3 mx-4 my-10 hover:bg-slate-500">Get started with us </button>
+        <button type="submit" class="btn btn-success mb-3 mx-4 my-10 hover:bg-slate-500"> <a href="/">Get started with us</a> </button>
       </div>
       <h1 className=' font-semibold font-serif text-center'>Here are some of our previous arts </h1>
 
