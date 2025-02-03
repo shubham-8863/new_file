@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 
@@ -41,17 +40,20 @@ export const Home = ({ uploadcontent, uploadstyle, submit ,loading , output }) =
 
         
       <div className="col-auto mx-5 my-5 text-center">
-        <button
+       <button
           type="submit"
-          className="btn bg-slate-500 text-white px-4 py-2 rounded mx-auto w-80 h-16 overflow-hidden hover:bg-slate-700"
+          className="btn bg-green-800 text-white px-4 py-2 rounded mx-auto w-80 h-16 overflow-hidden hover:bg-slate-700"
           onClick={submit}
         > {loading ? 'Processing...' : 'Click to Transfer your Image'}
         </button>
+        <div>
+      
+      <img className="justify-center items-center mx-72 my-16 w-96 h-72 "   src={output} alt=' '  />
+     </div>
         
-        <h2 className='my-5'> {output}</h2>
-
-        
-        
+       
+         
+   
       </div>
     </div>
   );
